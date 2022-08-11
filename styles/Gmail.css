@@ -1,0 +1,685 @@
+.main-container{
+  display: flex;
+  flex-direction: column;
+  height: 576px;
+  background: #f9fbfcf3;
+}
+
+.Header{
+  flex: 0;
+  display:flex;
+  flex-direction: row;
+  position: relative;
+  background: transparent;
+  padding: 9px;
+  top: 12px;
+}
+
+.mainmenu{
+  display: inline-block;
+  position: relative;
+  margin: 0 2px;
+  padding: 7px;
+  vertical-align: middle;
+  cursor: pointer;
+  height: 13px;
+  width: 29px;
+  color: #5f6368;
+  opacity: 1;
+  fill: currentColor;
+  display: flex;
+  top: -11px;
+}
+
+.Gmailicon{
+  display: inline-block;
+  position: relative;
+  top: -17px;
+  width: 111px;
+  height: 40px;
+  margin-bottom: 4px;
+  border: 0;
+  vertical-align: middle;
+  color: inherit;
+  display: flex;
+}
+    
+.search-container {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  background: #eaf5fe;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  width: 683px;
+  position: relative;
+  padding: 22px;
+  left: 81px;
+  padding-left: 16px;
+  top: -20px;
+  height: 0px;
+  z-index: 2;
+  box-shadow: none;
+}
+
+.text{
+  border: none;
+  padding: 2px;
+  margin: 0px;
+  height: auto;
+  width: 30%;
+  background: transparent;
+  position: absolute;
+  z-index: 6;
+  left: 54px;
+  top: 12px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.Gmailsearchicon{
+  display:flex;
+  padding: 1px;
+  margin: -7px;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 0;
+  position: absolute; 
+  height: 27px; 
+  top: 15px;
+  }
+
+.filtericon{ 
+  display:flex;
+  padding: 2px;
+  margin: 3px;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 0;
+  position: absolute; 
+  height: 19px; 
+  top: 7px;
+  left: 678px;
+
+}
+.supporticon{ 
+  display:flex;
+  padding: 2px;
+  margin: 3px;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 0;
+  position: absolute; 
+  height: 24px; 
+  top: 5px;
+  left: 836px;
+
+}
+.settingicon{ 
+  display:flex;
+  padding: 2px;
+  margin: 3px;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 0;
+  position: absolute; 
+  height: 27.5px; 
+  top: 4px;
+  left: 880px;
+}
+.apps{
+display: flex;
+padding: 8px;
+vertical-align: middle;
+border-radius: 2px;
+box-sizing: border-box;
+height: 40px;
+width: 40px;
+color: #5f6368;
+fill: currentColor;
+margin: -20px 2px 10px 905px;
+top: 4px;
+}
+.Gmail{
+  background-color: rgba(51, 15, 15, 0.81);
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  justify-content: center;
+  display:flex;
+  align-items: center;
+  line-height: normal;
+  color: #f9fbfc;
+  font-family: Arial, sans-serif;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 0;
+  position: relative;
+  font-size: 16px;
+  margin: 0px 10px;
+  padding: 11px;
+  box-sizing: border-box;
+  top: -16px;  
+}
+.Homepage{
+  flex: 1;
+  display:flex;
+  flex-direction: row; 
+}
+.block1{
+  flex: 1;
+  display:flex;
+  flex-direction: column; 
+}
+.search-container1 {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  background: #C2e7ff;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  width: 102px;
+  position: relative;
+  padding: 22px;
+  left: 0px;
+  padding-left: 16px;
+  top: -1px;
+  height: 11px;
+  z-index: 2;
+  box-shadow: none;
+}
+.text1{
+border: none;
+  padding: 2px;
+  margin: 0px;
+  height: auto;
+  width: 48%;
+  background: transparent;
+  position: absolute;
+  z-index: 6;
+  left: 53px;
+  top: 18px;
+  font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: normal;
+  font-weight: 700;
+  color: #0c0c0cfc;
+}
+.pencilicon{
+  display:flex;
+  padding: 0px;
+  margin: -7px;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 0;
+  position: absolute; 
+  height: 33px; 
+  top: 18px;
+  left: 17px;
+
+}
+.search-container2 {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  background: #d3e3fd;
+  border: 1px solid transparent;
+  border-radius:0 16px 16px 0;
+  width: 205px;
+  position: relative;
+  padding: 15px;
+  left: -7px;
+  padding-left: 16px;
+  top: 15px;
+  height: 0px;
+  z-index: 2;
+  box-shadow: none;
+  font: normal 16px Google sans,Roboto, Helvetica, Arial, sans-serif;
+}
+.text2{
+border: none;
+  padding: 2px;
+  margin: 0px;
+  height: auto;
+  width: 48%;
+  background: transparent;
+  position: absolute;
+  z-index: 6;
+  left: 60px;
+  top: 5px;
+  font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: normal;
+  font-weight: 700;
+  color: #001d35;
+}
+.text2a{
+  border: none;
+    padding: 2px;
+    margin: 0px;
+    height: auto;
+    width: 6%;
+    background: transparent;
+    position: absolute;
+    z-index: 6;
+    left: 210px;
+    top: 6px;
+    font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #001d35;  
+  }
+.inboxicon{
+  display:flex;
+  padding: 0px;
+  margin: -7px;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 0;
+  position: absolute; 
+  height: 27px; 
+  top: 8px;
+  left: 28px;
+}
+.search-container3 {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  background: #f9fbfc;
+  border: 1px solid transparent;
+  border-radius:0 16px 16px 0;
+  width: 205px;
+  position: relative;
+  padding: 15px;
+  left: -7px;
+  padding-left: 16px;
+  top: 14px;
+  height: 0px;
+  z-index: 2;
+  box-shadow: none;
+}
+.text3{
+border: none;
+  padding: 2px;
+  margin: 0px;
+  height: auto;
+  width: 48%;
+  background: transparent;
+  position: absolute;
+  z-index: 6;
+  left: 60px;
+  top: 6px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;  
+}
+.starredicon{
+  display:flex;
+  padding: 0px;
+  margin: -7px;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 0;
+  position: absolute; 
+  height: 22px; 
+  top: 12px;
+  left: 30px;
+}
+.search-container4 {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  background: #f9fbfc;
+  border: 1px solid transparent;
+  border-radius:0 16px 16px 0;
+  width: 205px;
+  position: relative;
+  padding: 15px;
+  left: -7px;
+  padding-left: 16px;
+  top: 14px;
+  height: 0px;
+  z-index: 2;
+  box-shadow: none;
+}
+.text4{
+border: none;
+  padding: 2px;
+  margin: 0px;
+  height: auto;
+  width: 48%;
+  background: transparent;
+  position: absolute;
+  z-index: 6;
+  left: 60px;
+  top: 6px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;  
+}
+.snoozedicon{
+  display:flex;
+  padding: 0px;
+  margin: -7px;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 0;
+  position: absolute; 
+  height: 32px; 
+  top: 7px;
+  left: 25px;
+}
+
+.search-container5 {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  background: #f9fbfc;
+  border: 1px solid transparent;
+  border-radius:0 16px 16px 0;
+  width: 205px;
+  position: relative;
+  padding: 15px;
+  left: -7px;
+  padding-left: 16px;
+  top: 14px;
+  height: 0px;
+  z-index: 2;
+  box-shadow: none;
+}
+.text5{
+border: none;
+  padding: 2px;
+  margin: 0px;
+  height: auto;
+  width: 48%;
+  background: transparent;
+  position: absolute;
+  z-index: 6;
+  left: 60px;
+  top: 6px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;  
+}
+.senticon{
+  display:flex;
+  padding: 0px;
+  margin: -7px;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 0;
+  position: absolute; 
+  height: 34px; 
+  top: 5px;
+  left: 21px;
+}
+
+.search-container6 {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  background: #f9fbfc;
+  border: 1px solid transparent;
+  border-radius:0 16px 16px 0;
+  width: 205px;
+  position: relative;
+  padding: 15px;
+  left: -7px;
+  padding-left: 16px;
+  top: 14px;
+  height: 0px;
+  z-index: 2;
+  box-shadow: none;
+}
+.text6{
+border: none;
+  padding: 2px;
+  margin: 0px;
+  height: auto;
+  width: 48%;
+  background: transparent;
+  position: absolute;
+  z-index: 6;
+  left: 60px;
+  top: 6px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;  
+}
+.Drafticon{
+  display:flex;
+  padding: 0px;
+  margin: -7px;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 0;
+  position: absolute; 
+  height: 37px; 
+  top: 4px;
+  left: 25px;
+}
+.search-container7 {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  background: #f9fbfc;
+  border: 1px solid transparent;
+  border-radius:0 16px 16px 0;
+  width: 205px;
+  position: relative;
+  padding: 15px;
+  left: -7px;
+  padding-left: 16px;
+  top: 13px;
+  height: 0px;
+  z-index: 2;
+  box-shadow: none;
+}
+.text7{
+border: none;
+  padding: 2px;
+  margin: 0px;
+  height: auto;
+  width: 48%;
+  background: transparent;
+  position: absolute;
+  z-index: 6;
+  left: 60px;
+  top: 6px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;  
+}
+.moreicon{
+  display:flex;
+  padding: 0px;
+  margin: -7px;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 0;
+  position: absolute; 
+  height: 29px; 
+  top: 10px;
+  left: 24px;
+}
+.labels{
+  border: none;
+    padding: 2px;
+    margin: 0px;
+    height: auto;
+    width: 48%;
+    background: transparent;
+    position: absolute;
+    z-index: 6;
+    left: 24px;
+    top: 363px;
+    font-size: 16px;
+    font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  
+  }
+  .labelicon{
+    display:flex;
+    padding: 0px;
+    margin: -7px;
+    background:transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    line-height: 0;
+    position: absolute; 
+    height: 20px; 
+    top: 8px;
+    left: 195px;
+  }
+.block2{
+  flex: 8;
+  display:flex;
+  flex-direction: row; 
+  background-color: rgba(255,255,255,1);
+  border-radius: 16px;
+  margin: -8px -73px 1px 10px;
+  overflow-y: hidden;
+}
+
+.selecticon{
+  display:flex;
+  position: absolute; 
+  height: 20px; 
+  top: 78px;
+  left: 272px;
+}
+.select2icon{
+  display:flex;
+  position: absolute; 
+  height: 20px; 
+  top: 78px;
+  left: 292px;
+}
+.refreshicon{
+  display:flex;
+  position: absolute; 
+  height: 25px; 
+  top: 76px;
+  left: 331px;
+}
+.more1icon{
+  display:flex;
+  position: absolute; 
+  height: 25px; 
+  top: 76px;
+  left: 372px;
+}
+.number{
+  display:flex;
+  position: absolute; 
+  height: 24px; 
+  top: 81px;
+  left: 1055px;
+  font-size: 11px;
+  font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+ 
+}
+.block3{
+  flex: 1;
+  display:flex;
+  flex-direction: column;
+ 
+}
+.calendericon{
+  display:flex;
+  padding: 2px;
+  margin: 3px;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 0;
+  position: absolute; 
+  height: 20px; 
+  top: 77px;
+  right: 12px;
+}
+.keepicon{
+  display:flex;
+  padding: 2px;
+  margin: 3px;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 0;
+  position: absolute; 
+  height: 32px; 
+  top: 127px;
+  right: 6px;
+}                
+.taskicon{
+  display:flex;
+  padding: 2px;
+  margin: 3px;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 0;
+  position: absolute; 
+  height: 20px; 
+  top: 189px;
+  right: 12px;
+}                
+.contacticon{
+  display:flex;
+  padding: 2px;
+  margin: 3px;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 0;
+  position: absolute; 
+  height: 32px; 
+  top: 238px;
+  right: 5px;
+}                
+.plusicon{
+  display:flex;
+  padding: 2px;
+  margin: 3px;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  line-height: 0;
+  position: absolute; 
+  height: 32px; 
+  top: 327px;
+  right: 7px;
+}   
+
+  
+
+  
+ 
+  
+
+  
+  
